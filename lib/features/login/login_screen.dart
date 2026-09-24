@@ -13,17 +13,17 @@ class LoginScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             
-            Text(LocaleKeys.login_mian_title),
-            Text(LocaleKeys.login_sup_title),
+            Text(LocaleKeys.login_mian_title.tr()),
+            Text(LocaleKeys.login_sup_title.tr()),
             IconButton(
               onPressed: () {
                 if (context.locale.languageCode == "en") {
-                  context.setLocale(Locale("ar"));
+                  context.setLocale(Locale('ar'));
                 } else {
-                  context.setLocale(Locale("en"));
+                  context.setLocale(Locale('en'));
                 }
               },
-              icon: Icon(Icons.language),
+              icon: const Icon(Icons.language),
             ),
           ],
         ),
