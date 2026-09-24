@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:todo_app/gen/locale_keys.g.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -11,9 +12,9 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("welcome".tr()),
-            Text("login_mian_title".tr()),
-            Text("login_sup_title".tr()),
+            
+            Text(LocaleKeys.login_mian_title),
+            Text(LocaleKeys.login_sup_title),
             IconButton(
               onPressed: () {
                 if (context.locale.languageCode == "en") {

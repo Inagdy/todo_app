@@ -1,3 +1,25 @@
-{"welcome":"مرحبا",
- "login_mian_title":"انشاء حسابك",
-  "login_sup_title" :"اضف اسمك وصوره حسابك" }
+{
+  "welcome": "مرحبا",
+  "login_mian_title": "انشاء حسابك",
+  "login_sup_title": "اضف اسمك وصوره حسابك",
+  "login": "تسجيل الدخول",
+
+  "greeting": "صباح الخير 👋",
+  "user_name": "أحمد",
+  "tasks": "المهام",
+  "done": "المكتملة",
+  "pending": "المعلقة",
+  "todays_tasks": "مهام اليوم",
+  "task_flutter_ui_title": "واجهة Flutter",
+  "task_flutter_ui_subtitle": "بناء شاشة التسجيل",
+  "task_workout_title": "التمرين",
+  "task_workout_subtitle": "النادي الساعة 6 مساءً",
+  "task_meeting_title": "اجتماع",
+  "task_meeting_subtitle": "اجتماع الفريق",
+  "task_read_book_title": "قراءة كتاب",
+  "task_read_book_subtitle": "العادات الذرية",
+  "status_pending": "معلق",
+  "status_done": "مكتمل",
+  "status_in_progress": "قيد التنفيذ",
+  "add_task": "مهمة"
+}

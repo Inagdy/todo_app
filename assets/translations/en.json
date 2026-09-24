@@ -1,3 +1,24 @@
-{"welcome":"Welcome",
- "login_mian_title":"Create Your Profile",
-  "login_sup_title" :"And Your Name and Profile Picture" }
+{
+  "welcome": "Welcome",
+  "login_mian_title": "Create Your Profile",
+  "login_sup_title": "And Your Name and Profile Picture",
+  "login": "Login",
+  "greeting": "Good Morning 👋",
+  "user_name": "Ahmed",
+  "tasks": "Tasks",
+  "done": "Done",
+  "pending": "Pending",
+  "todays_tasks": "Today's Tasks",
+  "task_flutter_ui_title": "Flutter UI",
+  "task_flutter_ui_subtitle": "Build Register Screen",
+  "task_workout_title": "Workout",
+  "task_workout_subtitle": "Gym at 6 PM",
+  "task_meeting_title": "Meeting",
+  "task_meeting_subtitle": "Team Sync",
+  "task_read_book_title": "Read Book",
+  "task_read_book_subtitle": "Atomic Habits",
+  "status_pending": "Pending",
+  "status_done": "Done",
+  "status_in_progress": "In Progress",
+  "add_task": "Task"
+}

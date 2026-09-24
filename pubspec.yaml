@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.9.3
+  lottie: ^3.6.1
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +22,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/translations/
+    - assets/icons/
