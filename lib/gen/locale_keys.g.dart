@@ -6,7 +6,8 @@ abstract class  LocaleKeys {
   static const welcome = 'welcome';
   static const login_mian_title = 'login_mian_title';
   static const login_sup_title = 'login_sup_title';
-  static const login = 'login';
+  static const continue_btn = 'continue_btn';
+  static const full_name = 'full_name';
   static const greeting = 'greeting';
   static const user_name = 'user_name';
   static const tasks = 'tasks';

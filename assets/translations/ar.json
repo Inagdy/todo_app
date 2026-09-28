@@ -2,7 +2,8 @@
   "welcome": "مرحبا",
   "login_mian_title": "انشاء حسابك",
   "login_sup_title": "اضف اسمك وصوره حسابك",
-  "login": "تسجيل الدخول",
+  "continue_btn": "الدخول",
+  "full_name":"الاسم كامل",
 
   "greeting": "صباح الخير 👋",
   "user_name": "أحمد",

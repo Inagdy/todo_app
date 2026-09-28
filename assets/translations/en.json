@@ -2,7 +2,9 @@
   "welcome": "Welcome",
   "login_mian_title": "Create Your Profile",
   "login_sup_title": "And Your Name and Profile Picture",
-  "login": "Login",
+  "continue_btn": "Continue",
+  "full_name":"Full Name",
+  
   "greeting": "Good Morning 👋",
   "user_name": "Ahmed",
   "tasks": "Tasks",
