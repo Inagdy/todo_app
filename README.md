@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## splash screen 
 
-<img width="1080" height="2340" alt="Screenshot_1790265728" src="https://github.com/user-attachments/assets/5e7b9a96-84fa-4cab-8838-f458033e2e7f" />
+<img width="800" height="720" alt="Screenshot_1790265728" src="https://github.com/user-attachments/assets/5e7b9a96-84fa-4cab-8838-f458033e2e7f" />
 
 ## Login English 
 
