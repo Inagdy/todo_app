@@ -22,6 +22,13 @@ A new Flutter project.
 
 <img width="1080" height="2340" alt="Screenshot_1790890686" src="https://github.com/user-attachments/assets/9054e6bd-1b67-4a72-9e43-833ee2289832" />
 
+## Add Task screen 
+
+<img width="1080" height="2340" alt="Screenshot_1790899203" src="https://github.com/user-attachments/assets/dc09b75a-71d3-408a-8cd1-c1c91b67c6b5" />
+
+## Add Task Arabic
+
+<img width="1080" height="2340" alt="Screenshot_1790899228" src="https://github.com/user-attachments/assets/d5927f31-c6d3-4aed-a77e-2419146b7103" />
 
 
 
