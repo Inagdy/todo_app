@@ -10,7 +10,7 @@ abstract class  LocaleKeys {
   static const full_name = 'full_name';
   static const greeting = 'greeting';
   static const user_name = 'user_name';
-  static const tasks = 'tasks';
+  static const Add_Task = 'Add_Task';
   static const done = 'done';
   static const pending = 'pending';
   static const todays_tasks = 'todays_tasks';

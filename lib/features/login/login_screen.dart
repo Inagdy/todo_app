@@ -3,9 +3,12 @@ import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hive/hive.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:todo_app/core/main_button.dart';
+import 'package:todo_app/core/utile/app_constance.dart';
 import 'package:todo_app/features/home/home_screen.dart';
+import 'package:todo_app/features/login/data/user_model.dart';
 import 'package:todo_app/gen/locale_keys.g.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -25,10 +28,38 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Future<void> pickImageFromGallory() async {
     photo = await picker.pickImage(source: ImageSource.gallery);
-    setState(() {
+    setState(() {});
+  }
 
+  saveUserData(UserModel user) {
+    Hive.box<UserModel>(AppConstants.userBox)
+        .put(AppConstants.currentUser, user)
+        .then((value) {
+          final savedUser = Hive.box<UserModel>(AppConstants.userBox)
+              .get(AppConstants.currentUser);
 
-    });
+          if (savedUser == null) {
+            print('No user saved yet');
+          } else {
+            print('User from Hive: ${savedUser.name}, ${savedUser.image}');
+          }
+
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => HomeScreen()),
+          );
+        })
+        .catchError((error) {
+          print(error);
+        });
+  }
+
+  var nameController = TextEditingController();
+
+  @override
+  void dispose() {
+    nameController.dispose();
+    super.dispose();
   }
 
   @override
@@ -130,6 +161,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       8.verticalSpace,
                       TextField(
+                        controller: nameController,
                         decoration: InputDecoration(
                           fillColor: Colors.grey.shade300,
                           filled: true,
@@ -151,13 +183,17 @@ class _LoginScreenState extends State<LoginScreen> {
                       20.verticalSpace,
                       MainButton(
                         buttonText: LocaleKeys.continue_btn.tr(),
-                        onTap: () => {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const HomeScreen(),
+                        onTap: () {
+                          if (nameController.text.trim().isEmpty) {
+                            print('Name is empty');
+                            return;
+                          }
+                          saveUserData(
+                            UserModel(
+                              name: nameController.text,
+                              image: photo?.path ?? "",
                             ),
-                          ),
+                          );
                         },
                       ),
                     ],
