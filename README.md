@@ -8,7 +8,7 @@ A new Flutter project.
 
 ## Login English 
 
-<img width="1080" height="2340" alt="Screenshot_1790582112" src="https://github.com/user-attachments/assets/a2d1a575-b464-4208-92b2-28d1df6c7d3a" />
+<img width="390" height="844"  alt="Screenshot_1790582112" src="https://github.com/user-attachments/assets/a2d1a575-b464-4208-92b2-28d1df6c7d3a" />
 
 ## Login Arabic 
 
