@@ -26,5 +26,11 @@ abstract class  LocaleKeys {
   static const status_done = 'status_done';
   static const status_in_progress = 'status_in_progress';
   static const add_task = 'add_task';
+  static const Task_Title = 'Task_Title';
+  static const Task_Title_Input = 'Task_Title_Input';
+  static const Task_descreption = 'Task_descreption';
+  static const Date = 'Date';
+  static const Time = 'Time';
+  static const Task_Subtitle = 'Task_Subtitle';
 
 }

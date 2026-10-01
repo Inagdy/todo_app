@@ -3,8 +3,8 @@
   "login_mian_title": "Create Your Profile",
   "login_sup_title": "And Your Name and Profile Picture",
   "continue_btn": "Continue",
-  "full_name":"Full Name",
-  
+  "full_name": "Full Name",
+
   "greeting": "Good Morning 👋",
   "user_name": "Ahmed",
   "Add_Task": "Add Task",
@@ -22,5 +22,11 @@
   "status_pending": "Pending",
   "status_done": "Done",
   "status_in_progress": "In Progress",
-  "add_task": "Task"
+  "add_task": "Task",
+  "Task_Title": "Task Title",
+  "Task_Title_Input": "ُEnter Task Title",
+  "Task_descreption": "ُDescription",
+  "Date": "ُDate",
+  "Time": "ُTime",
+  "Task_Subtitle": "Task Descreption"
 }
